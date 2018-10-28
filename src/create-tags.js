@@ -7,7 +7,7 @@ const createWordTag = (doc, { word, weight }) => {
 
   const tag = doc.createElement('span');
   tag.innerText = word;
-  tag.style = style;
+  tag.setAttribute('style', style);
   return tag;
 };
 

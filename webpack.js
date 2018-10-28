@@ -28,7 +28,7 @@ module.exports = {
     ],
   },
   resolve: {
-    extensions: ['.js', '.css'],
+    extensions: ['.js'],
   },
   plugins: [
     new CleanWebpackPlugin(outputPath, { allowExternal: true }),
